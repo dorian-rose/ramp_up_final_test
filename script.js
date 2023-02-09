@@ -14,7 +14,7 @@ function dosOpciones() {
     }
   }
 }
-//opcion 1 (creo que leí mal el enunciado, aqui tengo para los dos numeros si es impar, multiple de 25 or ambos. He intentado otra vez abajo)
+//opcion 1 (creo que leí mal el enunciado, aqui tengo para los dos numeros: si es impar, multiple de 25 or ambos. He intentado otra vez abajo)
 
 /*function primeraOpcion() {
   let number1 = parseInt(prompt("Inserte un numero entero "));
@@ -55,7 +55,7 @@ function dosOpciones() {
   );
 }*/
 
-//opcion 1
+//opcion 1 (esta vez solo muestro si NINGUNO de los numeros, UNO o AMBOS cumplen LAS DOS condiciones)
 function primeraOpcion() {
   let number1 = parseInt(prompt("Inserta un numero"));
   let number2 = parseInt(prompt("Inserta otro numero"));
